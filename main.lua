@@ -1,6 +1,6 @@
 local Config = {
-    Enabled = true, -- Toggle entire anti-cheat system
-    DebugMode = false, -- Show detection messages in output (for testing only)
+    Enabled = true, -- toggle entire anti-cheat system
+    DebugMode = false, -- show detection messages in output (for testing only)
     
     SpeedCheck = true,
     MaxSpeedMultiplier = 1.5, 
