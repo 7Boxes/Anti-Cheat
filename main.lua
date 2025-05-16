@@ -208,7 +208,7 @@ local function setupNoclipCheck(player)
         lastCheckTime = now
         
         local rayOrigin = rootPart.Position
-        local rayDirection = Vector3.new(0, -5, 0) -- Adjust based on your game
+        local rayDirection = Vector3.new(0, -5, 0) -- will need adjusting later
         local raycastParams = RaycastParams.new()
         raycastParams.FilterDescendantsInstances = {character, workspace.Terrain}
         raycastParams.FilterType = Enum.RaycastFilterType.Blacklist
@@ -251,7 +251,7 @@ local function setupFlyCheck(player)
         end
         
         local rayOrigin = rootPart.Position
-        local rayDirection = Vector3.new(0, -5, 0) -- Adjust based on your game
+        local rayDirection = Vector3.new(0, -5, 0) -- will need adjusting later
         local raycastParams = RaycastParams.new()
         raycastParams.FilterDescendantsInstances = {character, workspace.Terrain}
         raycastParams.FilterType = Enum.RaycastFilterType.Blacklist
