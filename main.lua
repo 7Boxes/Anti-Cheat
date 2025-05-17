@@ -1,3 +1,4 @@
+-- should work now :D
 local Config = {
     Enabled = true, -- toggle entire anti-cheat system
     DebugMode = false, -- show detection messages in output (for testing only)
